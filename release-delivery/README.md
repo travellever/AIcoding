@@ -1,25 +1,32 @@
-# 展区布局完整交付包
+# 展区布局：文档与完整原型交付
 
-本分支用于将已完成的交付包下载到本地电脑。
+## 新增：v2全功能浏览器原型（19个页面）
 
-## 下载
+**推荐下载 [完整浏览器原型压缩包](exhibition-full-prototype-v2.zip)**。
 
-1. 在 GitHub 登录有权访问本仓库的账号。
-2. 点击本目录中的 `exhibition-delivery.zip`。
-3. 点击 **Download raw file**（下载原始文件，向下箭头）。压缩包不需要在线预览。
-4. 保存并解压，进入 `AIcoding` 目录。
+点击文件后选择 **Download raw file**（向下箭头），保存到本地电脑，完整解压，然后双击：
 
-也可使用分支页面的 **Code → Download ZIP** 下载本分支，再解压其中的交付压缩包。
+```
+exhibition-full-prototype-v2/index.html
+```
 
-[打开交付包文件](exhibition-delivery.zip)
+无需安装Python、Node或数据库，无需连接网络。请使用本地Chrome、Edge或Firefox，不要在压缩软件的预览窗口中运行。
 
-## 包内内容
+- [只下载单文件交互原型HTML](full-prototype.html)：也可单独保存为HTML，再由浏览器打开。
+- [查看使用说明与19页功能清单](full-prototype-guide.md)
+- [查看原型首页截图](full-prototype-preview.png)
+- 完整包内的 `screenshots.html` 为19页原型图册；`screenshots/`包含完整截图，`src/`包含源代码。
 
-- `deliverables/需求分析与系统设计-评审稿.docx`
-- `deliverables/量化规则与数据审计.xlsx`
-- 原型源码、运行说明、截图与三期布局草案
-- 原始业务附件、结构化数据和验证报告
+包括：工作概览、届次展期、展厅、空间容量、展区题材、需求、数据导入、规则、生成任务、方案管理、图形编辑、历史比对、统计、同步、审批发布、导出、审计、权限设置与功能导航。
 
-所有布局为逻辑草案，正式发布前仍需批准容量、底图和安全参数。原型启动方法见压缩包内的 `AIcoding/README.md`。
+可以实际操作表单、读取CSV、配置规则、生成模拟方案、拖拽/拆分/合并/交换、锁定重排、版本撤销、演示审批、下载SVG/PNG/JSON/CSV/说明以及打印PDF。修改保存在当前浏览器，可用工作区JSON备份。
 
-SHA256：`6b0d1e125b213594ad1c9d5cab196119d0c0e6cd012ba34f6fbcacc00dd9be57`
+所有数据同步、组织归属、审核发布及浏览器生成均为明确标注的离线演示。真实容量、消防与几何仍需审核，不能将示意图当作批准的施工布局。
+
+## 原版：需求文档、量化规则与Python求解原型
+
+[下载原版完整交付包](exhibition-delivery.zip)。其中包括Word设计稿、Excel规则表、原始资料、Python原型和三期真实求解验证。
+
+## 下载遇到困难
+
+请先登录有权访问该仓库的GitHub账号。GitHub不会在线预览zip或执行HTML：用文件右上角的 **Download raw file** 保存到电脑即可。也可从本分支选择 **Code → Download ZIP** 获取所有交付文件，再解压其中的原型包。
