@@ -1,23 +1,25 @@
 {
   "document": "ESP32-S3 MicroPython Tutorial",
+  "interface_language": "English",
   "original_pages": 102,
   "retained_source_pages": 99,
   "rebuilt_outline_nodes": 95,
   "figure_groups": 139,
   "removed_content": [
-    "品牌介绍与推广页",
-    "品牌联系方式、页眉页脚及结束推广",
-    "版权说明与标记",
-    "截图和开发板插图中的品牌文字及标志"
+    "Brand introduction and promotion pages",
+    "Brand contact details, headers, footers and closing promotion",
+    "Copyright notices and marks",
+    "Brand text and logos in screenshots and board illustrations"
   ],
   "layout": [
-    "按原章节与操作顺序连续阅读",
-    "原文英文正文保留，界面导航为中文",
-    "Python代码转为可复制文本并合并跨页连续代码",
-    "表格保留参数及配图关系",
-    "终端中的用户名与示例根目录统一为中性名称"
+    "Original English tutorial text, with a fully English reader interface",
+    "Continuous reading in original chapter and step order",
+    "Copyable Python code; continuous listings reunited across source pages",
+    "Tables retain their parameters and illustration relationships",
+    "Neutral example root folder and terminal usernames"
   ],
   "checks": {
+    "reader_html_chinese_character_matches": 0,
     "visible_text_brand_matches": 0,
     "ocr_figures_checked": 139,
     "ocr_flagged_figures": 0,
@@ -25,15 +27,16 @@
     "pixels_changed_outside_label_regions": 0,
     "source_assignment_line_wraps_repaired": 1,
     "browser_checks": [
-      "99个保留来源页、95个目录节点、139组配图载入；可见正文无目标品牌/版权字样，图片全部内嵌",
-      "所有目录链接有有效目标，章节跳转正确",
-      "全文搜索、无结果提示及清除恢复正常",
-      "字号调节正常",
-      "图片放大、前后切换、原尺寸与ESC关闭正常",
-      "LED、BLE、Station、AP和TCP Server主代码提取后可通过Python语法解析（未在硬件运行）",
-      "代码复制按钮触发成功",
-      "手机宽度无横向溢出，目录可展开和关闭",
-      "离线交互无浏览器脚本错误、无外部网络请求"
+      "99 retained source pages, 95 outline topics and 139 illustrations loaded; excluded text absent; all images embedded",
+      "All reader text, attributes and dynamic UI strings are English; no Chinese characters in HTML source",
+      "All contents links resolve and chapter navigation works",
+      "Full-text search, English search feedback, no-results message and reset work",
+      "Text size controls work",
+      "Image enlargement, previous/next navigation, actual size and Escape dismissal work",
+      "LED, BLE, Station, AP and TCP Server programs pass Python syntax parsing; hardware execution not performed",
+      "Copy button displays English success feedback",
+      "Mobile layout has no horizontal overflow; contents menu opens and closes",
+      "Offline interactions produce no script errors or external network requests"
     ],
     "external_network_requests": 0,
     "python_syntax_verified_source_pages": [
@@ -43,12 +46,14 @@
       "79",
       "100"
     ],
-    "hardware_execution": "未执行"
+    "hardware_execution": "Not performed",
+    "english_update_preserves_all_139_image_files": true,
+    "english_update_preserves_all_code_blocks": true
   },
   "excluded_from_package": [
-    "原始PDF",
-    "带标记原图",
-    "处理过程与中间文件"
+    "Original PDF",
+    "Uncleaned source images",
+    "Processing scripts and intermediate files"
   ],
-  "delivery": "独立HTML内嵌全部图片，可离线阅读；原始驱动、固件与示例源码包未随PDF提供"
+  "delivery": "Standalone HTML with all images embedded, suitable for offline reading. Drivers, firmware and external project source packages referenced in the original tutorial are not included."
 }
