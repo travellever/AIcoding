@@ -1,0 +1,54 @@
+{
+  "document": "ESP32-S3 MicroPython Tutorial",
+  "original_pages": 102,
+  "retained_source_pages": 99,
+  "rebuilt_outline_nodes": 95,
+  "figure_groups": 139,
+  "removed_content": [
+    "品牌介绍与推广页",
+    "品牌联系方式、页眉页脚及结束推广",
+    "版权说明与标记",
+    "截图和开发板插图中的品牌文字及标志"
+  ],
+  "layout": [
+    "按原章节与操作顺序连续阅读",
+    "原文英文正文保留，界面导航为中文",
+    "Python代码转为可复制文本并合并跨页连续代码",
+    "表格保留参数及配图关系",
+    "终端中的用户名与示例根目录统一为中性名称"
+  ],
+  "checks": {
+    "visible_text_brand_matches": 0,
+    "ocr_figures_checked": 139,
+    "ocr_flagged_figures": 0,
+    "technical_illustrations_with_local_label_removal": 7,
+    "pixels_changed_outside_label_regions": 0,
+    "source_assignment_line_wraps_repaired": 1,
+    "browser_checks": [
+      "99个保留来源页、95个目录节点、139组配图载入；可见正文无目标品牌/版权字样，图片全部内嵌",
+      "所有目录链接有有效目标，章节跳转正确",
+      "全文搜索、无结果提示及清除恢复正常",
+      "字号调节正常",
+      "图片放大、前后切换、原尺寸与ESC关闭正常",
+      "LED、BLE、Station、AP和TCP Server主代码提取后可通过Python语法解析（未在硬件运行）",
+      "代码复制按钮触发成功",
+      "手机宽度无横向溢出，目录可展开和关闭",
+      "离线交互无浏览器脚本错误、无外部网络请求"
+    ],
+    "external_network_requests": 0,
+    "python_syntax_verified_source_pages": [
+      "56",
+      "69",
+      "75",
+      "79",
+      "100"
+    ],
+    "hardware_execution": "未执行"
+  },
+  "excluded_from_package": [
+    "原始PDF",
+    "带标记原图",
+    "处理过程与中间文件"
+  ],
+  "delivery": "独立HTML内嵌全部图片，可离线阅读；原始驱动、固件与示例源码包未随PDF提供"
+}

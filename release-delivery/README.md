@@ -1,5 +1,11 @@
 # 展区布局：文档与完整原型交付
 
+## 新增：PDF图文教程HTML重排版
+
+[下载独立HTML教程](python-tutorial.html) · [下载教程压缩包](python-tutorial-html.zip) · [查看说明与预览](python-tutorial-guide.md)
+
+教程包含全部内嵌图片，下载后用浏览器打开即可，无需安装环境。
+
 ## 新增：v2全功能浏览器原型（19个页面）
 
 **推荐下载 [完整浏览器原型压缩包](exhibition-full-prototype-v2.zip)**。
